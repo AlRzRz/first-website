@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header {
+    height: 72px;
+    background-color: #1F2937;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.top-content {
+    background-color: #1F2937;
+    height: 400px;
+}
+
+.middle-content {
+    height: 300px;
+}
+
+.bottom-content {
+    background-color: #E5E7EB;
+    height: 300px;
+}
+
+.button-content {
+    height: 200px;
+}
+
+.footer {
+    height: 72px;
+    background-color: #1F2937;
+}
