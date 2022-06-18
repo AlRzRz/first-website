@@ -3,7 +3,10 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    font-family: Roboto, sans-serif;
 }
+
+/* TOP HEADER */
 
 .header {
     height: 72px;
@@ -11,7 +14,32 @@ body {
     border-color: white;
     border-width: 2px;
     border-style: solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.left-side {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* END TOP HEADER */
 
 .top-content {
     background-color: #1F2937;
@@ -22,16 +50,122 @@ body {
     height: 300px;
 }
 
+/* BOTTOM CONTENT */
+
 .bottom-content {
     background-color: #E5E7EB;
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
 }
+
+.quote {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+.quote-text,
+.quote-name {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-text {
+font-style: italic;
+font-weight: lighter;
+}
+
+.quote-name {
+    align-self: flex-end;
+    font-weight: bold;
+    font-style: light italic;
+}
+
+/* END BOTTOM CONTENT */
+
+/* BUTTON CONTENT */
 
 .button-content {
     height: 200px;
+    padding: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.alert-button {
+    height: 100px;
+    width: 800px;
+    background-color: #3882F6;
+    border-radius: 25px;
+    padding: 40px;
+    display: flex;
+}
+
+.alert-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.alert-top-text,
+.alert-bottom-text {
+    margin-left: 40px;
+}
+
+.alert-top-text {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.alert-bottom-text {
+    color: #E5E7EB;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.su-button {
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.su-button button {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px 45px;
+    margin-left: 90px;
+    font-size: 18px;
+}
+
+/* END BUTTON CONTENT */
+
+/* FOOTER CONTENT */
 
 .footer {
     height: 72px;
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.footer-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* END FOOTER CONTENT */
