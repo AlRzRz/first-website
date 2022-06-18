@@ -11,9 +11,6 @@ body {
 .header {
     height: 72px;
     background-color: #1F2937;
-    border-color: white;
-    border-width: 2px;
-    border-style: solid;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -41,13 +38,68 @@ a {
 
 /* END TOP HEADER */
 
+/* TOP CONTENT */
+
 .top-content {
     background-color: #1F2937;
-    height: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.middle-content {
+.top-container {
     height: 300px;
+    width: 1000px;
+    display: flex;
+}
+
+.text-container,
+.image-container {
+    flex: 1;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.top-tc-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.bottom-tc-text {
+    font-size: 18px;
+    font-weight: 300;
+    color: #E5E7EB;
+}
+
+.tc-button button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 7px 28px;
+    font-size: 18px;
+}
+
+.image-container {
+    background-color: rgb(101, 98, 112);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 200;
+    color: #E5E7EB;
+}
+
+/* END TOP CONTENT */
+
+.middle-content {
+    height: 500px;
 }
 
 /* BOTTOM CONTENT */
